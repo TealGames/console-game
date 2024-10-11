@@ -22,3 +22,13 @@ std::string trim(const std::string& str)
 
 	return str.substr(start, end);
 }
+
+std::string to_lowercase(std::string& str) 
+{
+	std::string result;
+	for (auto& c : str) 
+	{
+		result += (char)tolower(c);
+	}
+	return result;
+}
