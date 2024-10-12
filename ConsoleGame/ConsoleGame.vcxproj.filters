@@ -27,9 +27,15 @@
     <ClCompile Include="GameOption.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StringUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelperFunctions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtil.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "ConsoleGame\\x64\\Debug\\GameOption.h.obj",
+            "outputs": [
+                "C:\\Users\\lukas\\Desktop\\Projects\\C & C++ Programs\\C++\\Console Game\\console-game\\ConsoleGame\\ConsoleGame\\x64\\Debug\\vc143.pdb",
+                "ConsoleGame\\x64\\Debug\\",
+                "C:\\Users\\lukas\\Desktop\\Projects\\C & C++ Programs\\C++\\Console Game\\console-game\\ConsoleGame\\ConsoleGame\\x64\\Debug\\GameOption.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "GameOption.h",
+                    "source-path": "c:\\users\\lukas\\desktop\\projects\\c & c++ programs\\c++\\console game\\console-game\\consolegame\\gameoption.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

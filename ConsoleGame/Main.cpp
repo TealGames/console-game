@@ -2,27 +2,22 @@
 #include <format>
 #include <conio.h>
 #include <string>
+#include <array>
 #include "HelperFunctions.h"
 #include "GameOption.h"
 
-std::string format_input(std::string);
-
-std::string get_command_from_option(const GameOption&);
-GameOption& option_from_input(std::string);
-
 int main()
-{  
+{
+	GameOption("Play"), GameOption("Restart"), GameOption("Quit");
+
 	std::cout << "Welcome to Chess!\n";
 	std::cout << "What would you like to do?";
-	//GameOption& option= option_from_input;
-}
-
-std::string get_command_from_option(const GameOption& option) 
-{
-	return std::to_string(option);
-}
-
-std::string format_input(std::string str) 
-{
-
+	std::unordered_set<std::string> allCommands = GameOption::GetAllCommands();
+	std::array<std::string, 3> arr = { "", "", "" };
+	auto it = allCommands.begin();
+	for (int i = 0; i < allCommands.size(); i++) {
+		arr.at(i) = *it;
+		std::advance(it, 1);
+	}
+	std::cout << Utils::ToStringArray(arr);
 }
