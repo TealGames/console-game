@@ -1,90 +1,108 @@
 ﻿  Scanning sources for module dependencies...
   GameOption.cpp
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,35): error C2039: 'format': is not a member of 'std'
   HelperFunctions.cpp
-  Main.cpp
-C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(16,38): error C3861: 'to_string': identifier not found
-  (compiling source file 'Main.cpp')
-      C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(16,38):
-      'to_string': function was not declared in the template definition context and can be found only via argument-dependent lookup in the instantiation context
-      C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(16,38):
-      the template instantiation context (the oldest one first) is
-          C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\Main.cpp(22,22):
-          see reference to function template instantiation 'std::string Utils::ToStringArray<std::string,3>(const std::array<std::string,3> &)' being compiled
+  (compiling source file 'GameOption.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\sstream(19,1):
+      see declaration of 'std'
   
-C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(16,14): error C2593: 'operator <<' is ambiguous
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,35): error C3861: 'format': identifier not found
+  (compiling source file 'GameOption.cpp')
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(54,26): error C3861: 'Util': identifier not found
+  (compiling source file 'GameOption.cpp')
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(54,26): error C2065: 'Util': undeclared identifier
+  (compiling source file 'GameOption.cpp')
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,35): error C2039: 'format': is not a member of 'std'
+  (compiling source file 'HelperFunctions.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iostream(18,1):
+      see declaration of 'std'
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,35): error C3861: 'format': identifier not found
+  (compiling source file 'HelperFunctions.cpp')
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(54,26): error C3861: 'Util': identifier not found
+  (compiling source file 'HelperFunctions.cpp')
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(54,26): error C2065: 'Util': undeclared identifier
+  (compiling source file 'HelperFunctions.cpp')
+  
+  Main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3597,23): error C2039: 'parse': is not a member of 'std::formatter<std::_Compile_time_parse_format_specs::_FormattedType,std::_Compile_time_parse_format_specs::_CharT>'
   (compiling source file 'Main.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(486,39):
-      could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(454,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(436,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(418,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(400,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(382,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(364,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(346,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(328,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(309,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(283,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(264,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(230,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(212,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(206,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(200,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(195,39):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(481,20):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<<void>(std::nullptr_t)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(694,32):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(738,32):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(774,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(819,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(936,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(942,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(947,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(953,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(961,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char8_t *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(967,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char8_t)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(975,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,wchar_t)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(978,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const wchar_t *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(982,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char16_t)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(984,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char32_t)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(992,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char16_t *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(994,31):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char32_t *)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1088,32):
-      or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
-      C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(16,14):
-      while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, unknown-type)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_formatter.hpp(129,8):
+      see declaration of 'std::formatter<std::_Compile_time_parse_format_specs::_FormattedType,std::_Compile_time_parse_format_specs::_CharT>'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(1478,39):
+      while evaluating constexpr function 'std::_Format_checker<char,Utils::LogType>::_On_replacement_field'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(1544,42):
+      while evaluating constexpr function 'std::_Parse_replacement_field'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3725,33):
+      while evaluating constexpr function 'std::_Parse_format_string'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3597,23):
+      the template instantiation context (the oldest one first) is
+          C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,42):
+          see reference to function template instantiation 'std::basic_format_string<char,const Utils::LogType &>::basic_format_string<char[61]>(const _Ty (&))' being compiled
+          with
+          [
+              _Ty=char [61]
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3725,89):
+          see reference to class template instantiation 'std::_Format_checker<char,Utils::LogType>' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3610,5):
+          while compiling class template member function 'std::_Format_checker<char,Utils::LogType>::_Format_checker(std::basic_string_view<char,std::char_traits<char>>,const std::_Basic_format_arg_type *) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3612,25):
+          see reference to function template instantiation 'std::_String_view_iterator<_Traits> std::_Compile_time_parse_format_specs<Utils::LogType,std::basic_format_parse_context<char>>(_ParseContext &)' being compiled
+          with
+          [
+              _Traits=std::char_traits<char>,
+              _ParseContext=std::basic_format_parse_context<char>
+          ]
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,42): error C3615: consteval function 'std::_Compile_time_parse_format_specs' cannot result in a constant expression
+  (compiling source file 'Main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3586,35):
+      failure was caused by control reaching the end of a consteval function
+      C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,42):
+      the call stack of the evaluation (the oldest call first) is
+          C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(43,42):
+          while evaluating function 'std::basic_format_string<char,const Utils::LogType &>::basic_format_string<char[61]>(const _Ty (&))'
+          with
+          [
+              _Ty=char [61]
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3725,33):
+          while evaluating function 'void std::_Parse_format_string<char,std::_Format_checker<char,Utils::LogType>>(std::basic_string_view<char,std::char_traits<char>>,_HandlerT &&)'
+          with
+          [
+              _HandlerT=std::_Format_checker<char,Utils::LogType>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(1544,42):
+          while evaluating function 'const _CharT *std::_Parse_replacement_field<char,_HandlerT&>(const _CharT *,const _CharT *,std::_Format_checker<_CharT,Utils::LogType>&)'
+          with
+          [
+              _CharT=char,
+              _HandlerT=std::_Format_checker<char,Utils::LogType>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(1478,39):
+          while evaluating function 'void std::_Format_checker<char,Utils::LogType>::_On_replacement_field(const size_t,const _CharT *)'
+          with
+          [
+              _CharT=char
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(3616,32):
+          while evaluating function 'std::_String_view_iterator<_Traits> std::_Compile_time_parse_format_specs<Utils::LogType,std::basic_format_parse_context<char>>(_ParseContext &)'
+          with
+          [
+              _Traits=std::char_traits<char>,
+              _ParseContext=std::basic_format_parse_context<char>
+          ]
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(54,26): error C3861: 'Util': identifier not found
+  (compiling source file 'Main.cpp')
+  
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\HelperFunctions.h(54,26): error C2065: 'Util': undeclared identifier
+  (compiling source file 'Main.cpp')
   
   Generating Code...
-C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\GameOption.cpp(37,1): warning C4172: returning address of local variable or temporary : command
