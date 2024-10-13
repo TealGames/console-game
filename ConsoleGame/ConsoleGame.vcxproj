@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameOption.hpp" />
+    <ClInclude Include="HelperFunctions.hpp" />
+    <ClInclude Include="StringableEnum.hpp" />
+    <ClInclude Include="StringUtil.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameOption.cpp" />
+    <ClCompile Include="HelperFunctions.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="StringableEnum.cpp" />
+    <ClCompile Include="StringUtil.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -127,17 +140,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="GameOption.cpp" />
-    <ClCompile Include="HelperFunctions.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="GameOption.h" />
-    <ClCompile Include="StringUtil.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="HelperFunctions.h" />
-    <ClInclude Include="StringUtil.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

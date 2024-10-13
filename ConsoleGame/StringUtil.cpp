@@ -1,9 +1,10 @@
-#include "StringUtil.h"
+#include "StringUtil.hpp"
 
-namespace Utils {
-	StringUtil::StringUtil(std::string& s) : str(s) {}
+namespace Utils
+{
+	StringUtil::StringUtil(std::string &s) : str(s) {}
 
-	StringUtil& StringUtil::trim() 
+	StringUtil &StringUtil::trim()
 	{
 		std::string::const_iterator startIt = str.begin();
 		std::string::const_iterator endIt = str.end();
@@ -12,24 +13,28 @@ namespace Utils {
 		int end = str.length();
 		for (auto it = startIt; it != endIt; it++)
 		{
-			if (!std::isspace(*it)) break;
-			else start++;
+			if (!std::isspace(*it))
+				break;
+			else
+				start++;
 		}
 
 		for (auto it = endIt - 1; it != startIt; it--)
 		{
-			if (!std::isspace(*it)) break;
-			else end--;
+			if (!std::isspace(*it))
+				break;
+			else
+				end--;
 		}
 
-		str=str.substr(start, end);
+		str = str.substr(start, end);
 		return *this;
 	}
 
-	StringUtil& StringUtil::to_lower_case()
+	StringUtil &StringUtil::to_lower_case()
 	{
 		std::string result;
-		for (auto& c : str)
+		for (auto &c : str)
 		{
 			result += (char)tolower(c);
 		}
@@ -37,7 +42,8 @@ namespace Utils {
 		return *this;
 	}
 
-	StringUtil::operator std::string() const{
+	StringUtil::operator std::string() const
+	{
 		return str;
 	}
 }
