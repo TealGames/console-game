@@ -5,24 +5,28 @@
 #include "HelperFunctions.hpp"
 #include "GameOption.hpp"
 
+void PromptGameOption(std::string&);
+
 int main()
 {
-	// const GameOption options[3] = {GameOption("Play"), GameOption("Restart"), GameOption("Quit")};
-	// GameOption play("Play");
+	const GameOption options[3] = {GameOption("Play"), GameOption("Restart"), GameOption("Quit")};
 
-	std::cout << "Welcome to Chess!\n";
-	std::cout << "What would you like to do?";
-
-	std::string str = "Hello";
-	GameOption::IsValidCommand(str);
-	GameOption var("thing");
-	var.GetCommand();
+	std::cout << "Welcome to Chess!" << std::endl;
+	
+	std::string command;
 	std::unordered_set<std::string> allCommands = GameOption::GetAllCommands();
-	//  std::array<std::string, 3> arr = { "", "", "" };
-	//  auto it = allCommands.begin();
-	//  for (int i = 0; i < allCommands.size(); i++) {
-	//	arr.at(i) = *it;
-	//	std::advance(it, 1);
-	//  }
-	Utils::Log(Utils::LogType::Log, Utils::ToStringIterable(allCommands));
+	
+	PromptGameOption(command);
+	while (!GameOption::IsValidCommand(command)) {
+		std::cout << "Invalid option! Try again" << std::endl;
+		PromptGameOption(command);
+	}
+}
+
+void PromptGameOption(std::string& command)
+{
+	std::cout << "What would you like to do?" << std::endl;
+	std::string commandsMessage = "Here are possible commands: " + GameOption::AllOptionsToString();
+	std::cout << commandsMessage << std::endl;
+	std::cin >> command;
 }

@@ -27,6 +27,12 @@
     <ClInclude Include="StringUtil.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Piece.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameOption.cpp">
@@ -42,6 +48,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StringUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

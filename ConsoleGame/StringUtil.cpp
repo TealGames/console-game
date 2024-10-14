@@ -42,8 +42,13 @@ namespace Utils
 		return *this;
 	}
 
-	StringUtil::operator std::string() const
+	std::string StringUtil::ToString()
 	{
 		return str;
+	}
+
+	StringUtil::operator std::string()
+	{
+		return ToString();
 	}
 }

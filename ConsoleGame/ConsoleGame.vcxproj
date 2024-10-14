@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClInclude Include="GameOption.hpp" />
     <ClInclude Include="HelperFunctions.hpp" />
+    <ClInclude Include="Piece.hpp" />
+    <ClInclude Include="Position.hpp" />
     <ClInclude Include="StringableEnum.hpp" />
     <ClInclude Include="StringUtil.hpp" />
   </ItemGroup>
@@ -28,8 +30,12 @@
     <ClCompile Include="GameOption.cpp" />
     <ClCompile Include="HelperFunctions.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Piece.cpp" />
+    <ClCompile Include="Position.cpp" />
     <ClCompile Include="StringableEnum.cpp" />
     <ClCompile Include="StringUtil.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Vector2D.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

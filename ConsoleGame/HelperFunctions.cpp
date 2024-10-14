@@ -24,6 +24,6 @@ namespace Utils
 			Log(LogType::Error, errMessage);
 			return;
 		}
-		std::cout << "\nLOG: " << str << std::endl;
+		std::cout << "\n"+logTypeMessage+": " << str << std::endl;
 	}
 }

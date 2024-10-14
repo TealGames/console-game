@@ -37,15 +37,16 @@ namespace Utils
 	template <typename T>
 	std::string ToStringIterable(const T &collection)
 	{
-		std::string str;
+		std::string str = "[";
 		int index = 0;
 		for (const auto &element : collection)
 		{
 			str += Utils::ToString(element);
 			if (index < collection.size() - 1)
-				str += "\n";
+				str += ", ";
 			index++;
 		}
+		str += "]";
 		return str;
 	}
 }

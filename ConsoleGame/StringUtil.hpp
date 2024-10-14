@@ -10,6 +10,7 @@ namespace Utils {
 		StringUtil& trim();
 		StringUtil& to_lower_case();
 
-		explicit operator std::string() const;
+		std::string ToString();
+		explicit operator std::string();
 	};
 }

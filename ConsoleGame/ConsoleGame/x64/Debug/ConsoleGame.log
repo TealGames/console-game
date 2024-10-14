@@ -1,4 +1,2 @@
-﻿  HelperFunctions.cpp
-  Main.cpp
-  Generating Code...
-  ConsoleGame.vcxproj -> C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\x64\Debug\ConsoleGame.exe
+﻿  Main.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\x64\Debug\ConsoleGame.exe for writing
