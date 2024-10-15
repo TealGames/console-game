@@ -19,21 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoardManager.hpp" />
+    <ClInclude Include="Color.hpp" />
     <ClInclude Include="GameOption.hpp" />
     <ClInclude Include="HelperFunctions.hpp" />
     <ClInclude Include="Piece.hpp" />
-    <ClInclude Include="Position.hpp" />
+    <ClInclude Include="Position2D.hpp" />
     <ClInclude Include="StringableEnum.hpp" />
     <ClInclude Include="StringUtil.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BoardManager.cpp" />
     <ClCompile Include="GameOption.cpp" />
     <ClCompile Include="HelperFunctions.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Piece.cpp" />
-    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="Position2D.cpp" />
     <ClCompile Include="StringableEnum.cpp" />
     <ClCompile Include="StringUtil.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Tile.hpp" />
     <ClCompile Include="Vector2D.cpp" />
     <ClCompile Include="Vector2D.hpp" />
   </ItemGroup>

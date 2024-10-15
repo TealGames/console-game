@@ -2,38 +2,44 @@
 #include <vector>
 #include <string>
 #include "Vector2D.hpp"
-#include "Position.hpp"
+#include "Color.hpp"
+#include "Position2D.hpp"
 
 class Piece 
 {
-public:
-	enum class PieceColor
-	{
-		White,
-		Black,
-	};
 
-	class MoveResult
+	/*class MoveResult
 	{
 	public:
-		const Utils::Position newPos;
+		const Utils::Position2D moveAttempt;
 		const bool validMove;
 		const Piece* const capturedPiece;
 		const std::string moveInfo;
 
 		bool DidCapturePiece() const;
 
-		MoveResult(Utils::Position, bool, const Piece* const, std::string = "");
-	};
+		MoveResult(Utils::Position2D, bool, const Piece* const, std::string = "");
+	};*/
 
 private:
-	const std::vector<const Utils::Vector2D> _moveDirs;
-	Utils::Position _pos;
+	const std::vector<Utils::Vector2D> _moveDirs;
+	const std::vector<Utils::Vector2D> _captureDirs;
+	Utils::Position2D _pos;
+	bool _isCaptured;
 
-public:
-	const PieceColor color;
-	const Utils::Position pos;
+	bool HasDifferentCaptureMove();
 	
-	Piece(const PieceColor color, const std::vector<const Utils::Vector2D>, const Utils::Position pos);
-	MoveResult TryMove(Utils::Position);
+public:
+	const ColorTheme color;
+	const Utils::Position2D& pos;
+	
+	Piece(const ColorTheme color, const std::vector<Utils::Vector2D>,
+		const std::vector<Utils::Vector2D>,const Utils::Position2D pos);
+
+	Piece(const ColorTheme color, const std::vector<Utils::Vector2D>,
+		const Utils::Position2D pos);
+
+	/*MoveResult TryMove(Utils::Position2D);*/
+	void SetCaptured(bool);
+	void SetPos(const Utils::Position2D);
 };

@@ -1,2 +1,6 @@
-﻿  Main.cpp
-LINK : fatal error LNK1168: cannot open C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\x64\Debug\ConsoleGame.exe for writing
+﻿  Piece.cpp
+ConsoleGame\x64\Debug\Vector2D.obj : warning LNK4042: object specified more than once; extras ignored
+Main.obj : error LNK2019: unresolved external symbol "public: __cdecl Utils::Vector2D::Vector2D(double,double)" (??0Vector2D@Utils@@QEAA@NN@Z) referenced in function main
+Main.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl Utils::Vector2D::ToString(enum Utils::Vector2D::VectorForm)" (?ToString@Vector2D@Utils@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4VectorForm@12@@Z) referenced in function main
+Piece.obj : error LNK2019: unresolved external symbol "public: __cdecl Utils::Vector2D::Vector2D(class Utils::Vector2D const &)" (??0Vector2D@Utils@@QEAA@AEBV01@@Z) referenced in function "class Utils::Vector2D * __cdecl std::construct_at<class Utils::Vector2D,class Utils::Vector2D &>(class Utils::Vector2D * const,class Utils::Vector2D &)" (??$construct_at@VVector2D@Utils@@AEAV12@@std@@YAPEAVVector2D@Utils@@QEAV12@AEAV12@@Z)
+C:\Users\lukas\Desktop\Projects\C & C++ Programs\C++\Console Game\console-game\ConsoleGame\x64\Debug\ConsoleGame.exe : fatal error LNK1120: 3 unresolved externals

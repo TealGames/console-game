@@ -3,6 +3,7 @@
 #include <string>
 #include <array>
 #include "HelperFunctions.hpp"
+#include "Vector2D.hpp"
 #include "GameOption.hpp"
 
 void PromptGameOption(std::string&);
@@ -16,6 +17,9 @@ int main()
 	std::string command;
 	std::unordered_set<std::string> allCommands = GameOption::GetAllCommands();
 	
+	Utils::Vector2D vec(-5, -10);
+	std::cout << vec.ToString();
+
 	PromptGameOption(command);
 	while (!GameOption::IsValidCommand(command)) {
 		std::cout << "Invalid option! Try again" << std::endl;

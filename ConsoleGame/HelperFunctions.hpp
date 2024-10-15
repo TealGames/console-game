@@ -49,4 +49,8 @@ namespace Utils
 		str += "]";
 		return str;
 	}
+
+	double ToRadians(const double);
+	double ToDegrees(const double);
+	bool ApproximateEquals(double, double);
 }
