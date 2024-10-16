@@ -52,4 +52,16 @@ namespace Utils
 		double diff = std::fabs(d2- d1);
 		return diff < std::numeric_limits<double>().epsilon();
 	}
+
+	bool IsInifinity(double value)
+	{
+		//Note: sign bit returns true if negative value
+		return std::isinf(value) && !std::signbit(value);
+	}
+	
+	bool IsNegInifinity(double value)
+	{
+		//Note: sign bit returns true if negative value
+		return std::isinf(value) && std::signbit(value);
+	}
 }

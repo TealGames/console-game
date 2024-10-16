@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:BoardManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Piece.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:BoardManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:BoardManager.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Piece.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:StringUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringableEnum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:StringableEnum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Position2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Position2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:HelperFunctions.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -47,12 +31,32 @@
       "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:GameOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Vector2D.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Vector2D.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringableEnum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:StringableEnum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Piece.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Position2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Position2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Tile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:StringUtil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Vector2D.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Vector2D.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Tile.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Position2D.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:Position2D.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|solutionrelative:HelperFunctions.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA2012F1-B5C5-4A1A-9CA6-8370C126B072}|ConsoleGame.vcxproj|C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringUtil.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -90,58 +90,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BoardManager.hpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.hpp",
               "RelativeDocumentMoniker": "BoardManager.hpp",
               "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.hpp",
               "RelativeToolTip": "BoardManager.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-15T03:41:16.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BoardManager.cpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.cpp",
               "RelativeDocumentMoniker": "BoardManager.cpp",
               "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\BoardManager.cpp",
               "RelativeToolTip": "BoardManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-15T03:40:52.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "HelperFunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.cpp",
+              "RelativeDocumentMoniker": "HelperFunctions.cpp",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.cpp",
+              "RelativeToolTip": "HelperFunctions.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-13T05:29:58.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HelperFunctions.hpp",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.hpp",
+              "RelativeDocumentMoniker": "HelperFunctions.hpp",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.hpp",
+              "RelativeToolTip": "HelperFunctions.hpp",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-13T05:30:10.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Piece.hpp",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.hpp",
+              "RelativeDocumentMoniker": "Piece.hpp",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.hpp",
+              "RelativeToolTip": "Piece.hpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T03:18:31.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Piece.cpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.cpp",
               "RelativeDocumentMoniker": "Piece.cpp",
               "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.cpp",
               "RelativeToolTip": "Piece.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-14T03:18:39.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Main.cpp",
-              "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Main.cpp",
-              "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GameOption.cpp",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\GameOption.cpp",
+              "RelativeDocumentMoniker": "GameOption.cpp",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\GameOption.cpp",
+              "RelativeToolTip": "GameOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T05:30:00.856Z",
+              "WhenOpened": "2024-10-13T05:25:52.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StringableEnum.cpp",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringableEnum.cpp",
+              "RelativeDocumentMoniker": "StringableEnum.cpp",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringableEnum.cpp",
+              "RelativeToolTip": "StringableEnum.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-13T05:28:04.86Z",
               "EditorCaption": ""
             },
             {
@@ -159,20 +211,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StringableEnum.cpp",
-              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringableEnum.cpp",
-              "RelativeDocumentMoniker": "StringableEnum.cpp",
-              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringableEnum.cpp",
-              "RelativeToolTip": "StringableEnum.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T05:28:04.86Z",
+              "WhenOpened": "2024-10-13T05:30:00.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "StringUtil.cpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\StringUtil.cpp",
               "RelativeDocumentMoniker": "StringUtil.cpp",
@@ -180,12 +232,11 @@
               "RelativeToolTip": "StringUtil.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T05:30:06.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T05:30:06.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Tile.cpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Tile.cpp",
               "RelativeDocumentMoniker": "Tile.cpp",
@@ -193,12 +244,11 @@
               "RelativeToolTip": "Tile.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-15T02:26:33.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T02:26:33.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Vector2D.cpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Vector2D.cpp",
               "RelativeDocumentMoniker": "Vector2D.cpp",
@@ -206,38 +256,11 @@
               "RelativeToolTip": "Vector2D.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-14T03:32:11.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T03:32:11.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HelperFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.cpp",
-              "RelativeDocumentMoniker": "HelperFunctions.cpp",
-              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.cpp",
-              "RelativeToolTip": "HelperFunctions.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T05:29:58.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameOption.cpp",
-              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\GameOption.cpp",
-              "RelativeDocumentMoniker": "GameOption.cpp",
-              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\GameOption.cpp",
-              "RelativeToolTip": "GameOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-13T05:25:52.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Vector2D.hpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Vector2D.hpp",
               "RelativeDocumentMoniker": "Vector2D.hpp",
@@ -245,25 +268,11 @@
               "RelativeToolTip": "Vector2D.hpp",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T03:31:03.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T03:31:03.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Piece.hpp",
-              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.hpp",
-              "RelativeDocumentMoniker": "Piece.hpp",
-              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Piece.hpp",
-              "RelativeToolTip": "Piece.hpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T03:18:31.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Tile.hpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Tile.hpp",
               "RelativeDocumentMoniker": "Tile.hpp",
@@ -271,12 +280,11 @@
               "RelativeToolTip": "Tile.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-15T02:23:40.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T02:23:40.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Color.hpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Color.hpp",
               "RelativeDocumentMoniker": "Color.hpp",
@@ -284,12 +292,11 @@
               "RelativeToolTip": "Color.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-15T03:30:41.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T03:30:41.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Position2D.hpp",
               "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\Position2D.hpp",
               "RelativeDocumentMoniker": "Position2D.hpp",
@@ -297,21 +304,7 @@
               "RelativeToolTip": "Position2D.hpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-15T02:07:26.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HelperFunctions.hpp",
-              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.hpp",
-              "RelativeDocumentMoniker": "HelperFunctions.hpp",
-              "ToolTip": "C:\\Users\\lukas\\Desktop\\Projects\\C \u0026 C\u002B\u002B Programs\\C\u002B\u002B\\Console Game\\console-game\\ConsoleGame\\HelperFunctions.hpp",
-              "RelativeToolTip": "HelperFunctions.hpp",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAADUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T05:30:10.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T02:07:26.389Z"
             },
             {
               "$type": "Document",
@@ -323,8 +316,7 @@
               "RelativeToolTip": "StringUtil.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T05:30:14.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T05:30:14.128Z"
             },
             {
               "$type": "Document",
@@ -336,8 +328,7 @@
               "RelativeToolTip": "GameOption.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-13T05:30:09.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T05:30:09.399Z"
             },
             {
               "$type": "Document",

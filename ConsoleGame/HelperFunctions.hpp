@@ -50,7 +50,25 @@ namespace Utils
 		return str;
 	}
 
+	template <typename T1, typename T2>
+	bool IterableHas(const T1& collection, const T2& findElement)
+	{
+		if (T1.size() <= 0) return false;
+
+		for (const auto& element : collection)
+		{
+			if (&element == &findElement || element == findElement)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
 	double ToRadians(const double);
 	double ToDegrees(const double);
 	bool ApproximateEquals(double, double);
+
+	bool IsInifinity(double);
+	bool IsNegInifinity(double);
 }

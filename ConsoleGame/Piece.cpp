@@ -1,18 +1,34 @@
+#include <format>
 #include "Piece.hpp"
 #include "Color.hpp"
 #include "Position2D.hpp"
+#include "HelperFunctions.hpp"
 
-//Piece::MoveResult::MoveResult(Utils::Position2D newPos, bool validMove, 
-//	const Piece* const capturedPiece, std::string info) :
-//	moveAttempt(newPos), validMove(validMove), capturedPiece(capturedPiece), moveInfo(info)
-//{
-//
-//}
-//
-//bool Piece::MoveResult::DidCapturePiece() const 
-//{
-//	return capturedPiece != nullptr;
-//}
+const std::unordered_map<Piece::PieceType, Piece::PieceMoveInfo> Piece::pieceMoves =
+{
+	{PieceType::Pawn, {1, {{1,0}, {1, 1}, {-1,-1}}, {}}},
+	{PieceType::Knight, {3, {{2, 1}, {1, 2}, {2, -1}, {-2, 1}, {-2, 1}, {-1, -2}, {1, -2}, {2, -1}}, {} }},
+	{PieceType::Bishop, {3, {{std::numeric_limits<double>::infinity(), std::numeric_limits<double>::infinity()},
+									{std::numeric_limits<double>::infinity(), -std::numeric_limits<double>::infinity()},
+									{-std::numeric_limits<double>::infinity(), std::numeric_limits<double>::infinity()},
+									{-std::numeric_limits<double>::infinity(), -std::numeric_limits<double>::infinity()}},
+									{}}},
+	{PieceType::Rook, {5,   {{0, std::numeric_limits<double>::infinity()},
+									{std::numeric_limits<double>::infinity(), 0},
+									{0, -std::numeric_limits<double>::infinity()},
+									{-std::numeric_limits<double>::infinity(), 0}},
+									{}}},
+	{PieceType::Queen, {9,  {{std::numeric_limits<double>::infinity(), std::numeric_limits<double>::infinity()},
+									{std::numeric_limits<double>::infinity(), -std::numeric_limits<double>::infinity()},
+									{-std::numeric_limits<double>::infinity(), std::numeric_limits<double>::infinity()},
+									{-std::numeric_limits<double>::infinity(), -std::numeric_limits<double>::infinity()},
+									{0, std::numeric_limits<double>::infinity()},
+									{std::numeric_limits<double>::infinity(), 0},
+									{0, -std::numeric_limits<double>::infinity()},
+									{-std::numeric_limits<double>::infinity(), 0}},
+									{}}},
+	{PieceType::King, {std::numeric_limits<double>::infinity(), {{1,0}, {0, 1}, {-1, 0}, {0, -1}}, {}}}
+};
 
 Piece::Piece(const ColorTheme color, const std::vector<Utils::Vector2D> moves,
 	const std::vector<Utils::Vector2D> captureDirs, const Utils::Position2D pos)
@@ -29,12 +45,10 @@ bool Piece::HasDifferentCaptureMove()
 	return _captureDirs.size() > 0;
 }
 
-//Piece::MoveResult Piece::TryMove(Utils::Position2D newPos)
-//{
-//	if (newPos == pos)
-//		return { newPos, false, nullptr, "Moved to current position" };
-//	return 
-//}
+bool Piece::HasPieceTypeDefined(const PieceType type)
+{
+	return Utils::IterableHas(pieceMoves, type);
+}
 
 void Piece::SetCaptured(bool isCaptured)
 {
@@ -44,4 +58,64 @@ void Piece::SetCaptured(bool isCaptured)
 void Piece::SetPos(Utils::Position2D newPos)
 {
 	_pos = newPos;
+}
+
+double Piece::GetValueForPiece(const PieceType type)
+{
+	bool hasType = HasPieceTypeDefined(type);
+	if (!hasType) 
+	{
+		std::string err = std::format("Tried to get value for a piece of type {} "
+			"but type has no defined info", type);
+		Utils::Log(Utils::LogType::Error, err);
+		return 0;
+	}
+	return pieceMoves.at(type).value;
+}
+
+std::vector<Utils::Vector2D> Piece::GetMoveDirsForPiece(const PieceType type)
+{
+	bool hasType = HasPieceTypeDefined(type);
+	if (!hasType) 
+	{
+		std::string err = std::format("Tried to get move dirs for a piece of type {} "
+			"but type has no defined info", type);
+		Utils::Log(Utils::LogType::Error, err);
+		return {};
+	}
+	return pieceMoves.at(type).moveDirs;
+}
+
+bool Piece::DoesMoveDeltaMatchPieceMoves(const PieceType type,
+	const Utils::Vector2D& startPos, const Utils::Vector2D& endPos)
+{
+	bool hasType = HasPieceTypeDefined(type);
+	if (!hasType)
+	{
+		std::string err = std::format("Tried to get move dirs for a piece of type {} "
+			"but type has no defined info", type);
+		Utils::Log(Utils::LogType::Error, err);
+		return {};
+	}
+
+	const Utils::Vector2D delta = endPos - startPos;
+	if (delta == Utils::Vector2D::ZERO) return false;
+
+	for (const auto& moveDir : pieceMoves.at(type).moveDirs) 
+	{
+		if (delta == moveDir) return true;
+
+		bool xPosInifinity = Utils::IsInifinity(moveDir.x);
+		bool xNegInifinity = Utils::IsNegInifinity(moveDir.x);
+		bool yPosInfinity= Utils::IsInifinity(moveDir.y);
+		bool yNegInfinity = Utils::IsNegInifinity(moveDir.y);
+
+		//Note: since indices ascend downward for row, the delta's will be flipped from what expected
+		if (xPosInifinity && delta.x < 0 && delta.y == moveDir.y) return true;
+		else if (xNegInifinity && delta.x > 0 && delta.y == moveDir.y) return true;
+		else if (yPosInfinity && delta.y > 0 && delta.x == moveDir.x) return true;
+		else if (yNegInfinity && delta.y < 0 && delta.x == moveDir.x) return true;
+
+		//TODO: other cases need to be considered
+	}
 }
