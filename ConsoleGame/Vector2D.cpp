@@ -67,12 +67,6 @@ namespace Utils
 		return Normalize(*this);
 	}
 
-	/// <summary>
-	/// Will get the vector formed by the 2 points
-	/// </summary>
-	/// <param name="pos1"></param>
-	/// <param name="pos2"></param>
-	/// <returns></returns>
 	Vector2D Vector2D::GetVector(const Position2D& startPos, const Position2D& endPos)
 	{
 		Vector2D result(endPos.x - startPos.x, endPos.y - startPos.y);

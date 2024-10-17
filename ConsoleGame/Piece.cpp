@@ -2,6 +2,7 @@
 #include "Piece.hpp"
 #include "Color.hpp"
 #include "Position2D.hpp"
+#include "Vector2D.hpp"
 #include "HelperFunctions.hpp"
 
 const std::unordered_map<Piece::PieceType, Piece::PieceMoveInfo> Piece::pieceMoves =
@@ -30,15 +31,9 @@ const std::unordered_map<Piece::PieceType, Piece::PieceMoveInfo> Piece::pieceMov
 	{PieceType::King, {std::numeric_limits<double>::infinity(), {{1,0}, {0, 1}, {-1, 0}, {0, -1}}, {}}}
 };
 
-Piece::Piece(const ColorTheme color, const std::vector<Utils::Vector2D> moves,
-	const std::vector<Utils::Vector2D> captureDirs, const Utils::Position2D pos)
-	: color(color), _moveDirs(moves), _captureDirs(captureDirs), _pos(pos), pos(_pos), 
-	_isCaptured(false){}
-
-Piece::Piece(const ColorTheme color, const std::vector<Utils::Vector2D> moves,
-	const Utils::Position2D pos)
-	: color(color), _moveDirs(moves), _captureDirs{}, _pos(pos), pos(_pos),
-	_isCaptured(false) {}
+Piece::Piece(const ColorTheme color, const PieceType piece, const Utils::Position2D pos)
+	: color(color), pieceType(piece), _moveDirs(GetMoveDirsForPiece(piece)), 
+	_captureDirs(GetCaptureMovesForPiece(piece)), _pos(pos), pos(_pos), _isCaptured(false) {}
 
 bool Piece::HasDifferentCaptureMove()
 {
@@ -86,8 +81,21 @@ std::vector<Utils::Vector2D> Piece::GetMoveDirsForPiece(const PieceType type)
 	return pieceMoves.at(type).moveDirs;
 }
 
+std::vector<Utils::Vector2D> Piece::GetCaptureMovesForPiece(const PieceType type)
+{
+	bool hasType = HasPieceTypeDefined(type);
+	if (!hasType)
+	{
+		std::string err = std::format("Tried to get capture moves for a piece of type {} "
+			"but type has no defined info", type);
+		Utils::Log(Utils::LogType::Error, err);
+		return {};
+	}
+	return pieceMoves.at(type).captureDirs;
+}
+
 bool Piece::DoesMoveDeltaMatchPieceMoves(const PieceType type,
-	const Utils::Vector2D& startPos, const Utils::Vector2D& endPos)
+	const Utils::Position2D& startPos, const Utils::Position2D& endPos)
 {
 	bool hasType = HasPieceTypeDefined(type);
 	if (!hasType)
@@ -98,7 +106,7 @@ bool Piece::DoesMoveDeltaMatchPieceMoves(const PieceType type,
 		return {};
 	}
 
-	const Utils::Vector2D delta = endPos - startPos;
+	const Utils::Vector2D delta = Utils::Vector2D::GetVector(startPos, endPos);
 	if (delta == Utils::Vector2D::ZERO) return false;
 
 	for (const auto& moveDir : pieceMoves.at(type).moveDirs) 
@@ -111,11 +119,19 @@ bool Piece::DoesMoveDeltaMatchPieceMoves(const PieceType type,
 		bool yNegInfinity = Utils::IsNegInifinity(moveDir.y);
 
 		//Note: since indices ascend downward for row, the delta's will be flipped from what expected
-		if (xPosInifinity && delta.x < 0 && delta.y == moveDir.y) return true;
-		else if (xNegInifinity && delta.x > 0 && delta.y == moveDir.y) return true;
-		else if (yPosInfinity && delta.y > 0 && delta.x == moveDir.x) return true;
-		else if (yNegInfinity && delta.y < 0 && delta.x == moveDir.x) return true;
-
-		//TODO: other cases need to be considered
+		bool hasCorrectX = (xPosInifinity && delta.x < 0) || (xNegInifinity && delta.x > 0) || (delta.x == moveDir.x);
+		bool hasCorrectY = (yPosInfinity && delta.y > 0) || (yNegInfinity && delta.y < 0) || (delta.y == moveDir.y);
+		if (hasCorrectX && hasCorrectY) return true;
 	}
+}
+
+bool Piece::DoesMoveDeltaMatchPieceMoves(const Utils::Position2D& newPos) const
+{
+	return Piece::DoesMoveDeltaMatchPieceMoves(pieceType, pos, newPos);
+}
+
+std::string Piece::ToString() const
+{
+	std::string str = std::format("[{} {}]", color, pieceType);
+	return str;
 }

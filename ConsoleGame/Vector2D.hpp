@@ -46,7 +46,14 @@ namespace Utils
 		double GetDirection(const AngleMode = AngleMode::Radians) const;
 		double GetMagnitude() const;
 		Vector2D GetNormalized() const;
-		static Vector2D GetVector(const Position2D&, const Position2D&);
+
+		/// <summary>
+		/// Will get the vector formed by the 2 points
+		/// </summary>
+		/// <param name="pos1"></param>
+		/// <param name="pos2"></param>
+		/// <returns></returns>
+		static Vector2D GetVector(const Position2D& startPos, const Position2D& endPos);
 
 		std::string ToString(const VectorForm form=VectorForm::MagnitudeDirection);
 
