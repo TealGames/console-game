@@ -6,7 +6,7 @@ namespace Utils {
 	private:
 		std::string str;
 	public:
-		StringUtil(std::string&);
+		StringUtil(const std::string&);
 		StringUtil& trim();
 		StringUtil& to_lower_case();
 

@@ -2,7 +2,7 @@
 
 namespace Utils
 {
-	StringUtil::StringUtil(std::string &s) : str(s) {}
+	StringUtil::StringUtil(const std::string &s) : str(s) {}
 
 	StringUtil &StringUtil::trim()
 	{
